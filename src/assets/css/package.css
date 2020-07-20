@@ -1,0 +1,259 @@
+body {
+	background: #fff
+}
+
+.pk_banner {
+	background: url("../images/pk_banner.jpg") center;
+	min-width: 1200px;
+	height: 300px;
+}
+
+.pk_card {
+	width: 1200px;
+	height: 100px;
+	margin: -50px auto 0 auto;
+	background: #fff;
+	border-radius: 10px;
+	box-shadow: 0 0 20px rgba(0, 0, 0, 0.06);
+}
+
+.pk_card li {
+	float: left;
+	margin: 20px 0;
+	padding: 6px 30px 0 30px;
+	width: 339px;
+	height: 54px;
+	border-right: 1px solid #eee;
+}
+
+.pk_card li:last-child {
+	border: none
+}
+
+.buy_card>ul>li {
+	float: left;
+	width: 340px;
+	height: 560px;
+	background: #fff;
+	border-radius: 10px;
+	overflow: hidden;
+	margin-right: 10px;
+	transition: .2s;
+}
+
+.buy_card>ul>li:last-child {
+	margin-right: 0;
+}
+
+.buy_card>ul>.actived {
+	height: 580px;
+	margin-top: -20px;
+	box-shadow: 0 4px 20px rgba(0, 0, 0, 0.08);
+}
+
+.price {
+	background: #f0f4fb;
+	height: 140px;
+	padding: 20px 30px;
+}
+
+.mons {
+	position: relative;
+	font-size: 30px;
+	height: 30px;
+	line-height: 30px;
+	text-align: center;
+}
+
+.mons>span {
+	position: absolute;
+	display: block;
+	top: 0;
+	left: 125px;
+	padding: 0 15px;
+	color: #fff;
+	font-size: 14px;
+	border-radius: 15px;
+	background: rgba(0, 0, 0, 0.1);
+}
+
+.mons>span>img {
+	vertical-align: middle;
+	margin-right: 10px;
+}
+
+.nums {
+	position: relative;
+	font-family: Impact;
+	font-size: 60px;
+}
+
+.nums:before {
+	content: '¥';
+	position: absolute;
+	left: 75px;
+	top: -10px;
+	font-size: 18px;
+}
+
+.pk_txt {
+	padding: 30px 40px;
+}
+
+.pk_txt li {
+	width: 100%;
+	margin-bottom: 10px;
+	height: 50px;
+	line-height: 50px;
+	border-bottom: 1px solid #eee;
+}
+
+.pk_txt li>span:first-child {
+	float: left;
+}
+
+.pk_txt li>span:nth-child(2) {
+	float: right;
+}
+
+.buy_btn {
+	width: 160px;
+	margin: 0 auto;
+	border: 1px solid #7C38C7;
+	color: #7C38C7;
+}
+
+.buy_card>ul>.actived>.price {
+	background: url(../images/buy_card_bg.png) no-repeat;
+	background-size: 100% 100%;
+	color: #fff;
+}
+
+.buy_card>ul>.actived>.buy_btn {
+	color: #fff;
+	background-image: linear-gradient(to right, #76B6FD, #8520FE);
+	border: 1px solid #78a3fe;
+}
+
+.buy_card>ul>.actived>.buy_btn:hover {
+	background-image: linear-gradient(to right, #8525fe, #8520FE) !important;
+	border: 1px solid #8520fe !important;
+}
+
+.buy_btn:hover {
+	background-image: linear-gradient(to right, #76B6FD, #8520FE);
+	border: 1px solid #78a3fe;
+	color: #fff;
+	border-color: #7C38C7;
+}
+
+.buy_list {
+	height: 50px;
+	line-height: 50px;
+	font-size: 14px;
+	margin-bottom: 10px;
+}
+
+.buy_list>span {
+	float: left;
+	display: block;
+	margin-right: 10px;
+	width: 61px;
+	font-weight: bold;
+}
+
+.name_in {
+	height: 38px;
+	width: calc(100% - 170px);
+	padding: 0 5px;
+	margin-right: 10px;
+	border: 1px solid #ddd;
+}
+
+.log_link {
+	color: #707080;
+}
+
+.log_link:hover {
+	color: #7C38C7
+}
+
+.reduce,
+.add {
+	float: left;
+	border: 1px solid #ddd;
+	background: #fff;
+	height: 38px;
+	width: 38px;
+	line-height: 38px;
+	font-size: 18px;
+	text-align: center;
+	cursor: pointer;
+	user-select: none;
+	margin-top: 5px;
+}
+
+.reduce:hover,
+.add:hover {
+	background: #f8f8f8
+}
+
+.num {
+	width: 30px;
+	border: 1px solid #ddd;
+	border-left: none;
+	border-right: none;
+	padding: 0 5px;
+	height: 38px;
+	float: left;
+	text-align: center;
+	margin-top: 5px;
+}
+
+.buy_list>label {
+	position: relative;
+	cursor: pointer;
+	float: left;
+	display: block;
+	height: 48px;
+	line-height: 48px;
+	width: calc(50% - 12px);
+	border: 1px solid #ddd;
+	text-align: center;
+	transition: .2s;
+}
+
+.buy_list>label:after {
+	content: '\2714';
+	position: absolute;
+	right: -7px;
+	top: -7px;
+	display: block;
+	text-align: center;
+	width: 0;
+	height: 0;
+	line-height: 16px;
+	border-radius: 8px;
+	font-size: 12px;
+	background: #7C38C7;
+	color: #fff;
+	transition: .2s;
+}
+
+.buy_list>label>img {
+	vertical-align: middle;
+	margin-right: 8px;
+}
+
+.buy_list>label:hover {
+	border-color: #7C38C7
+}
+
+.lab_check {
+	border-color: #7C38C7 !important;
+}
+
+.lab_check:after {
+	width: 16px !important;
+	height: 16px !important;
+}

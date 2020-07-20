@@ -1,0 +1,334 @@
+.w1280{
+    width: 1280px;
+    margin: 0 auto;
+}
+.buyBan {
+   background: url(/img/buy_bg.8488afe6.jpg) top center no-repeat;
+   height: auto;
+   margin-top: 80px;
+   overflow: hidden;
+}
+.buyTitle{
+    font-size: 48px;
+    color: #333;
+    text-align: center;
+    font-weight: bold;
+}
+.buyCon{
+    color: #fff;
+    font-size: 18px;
+}
+.clearfix{
+	margin-top: 150px;
+}
+.buyTopL{
+    width: 600px;
+    padding-top: 84px;
+	margin: 0 auto;
+	text-align: center;
+}
+.buyTopCon{
+    font-weight: bold;
+    font-size: 36px;
+    color: rgba(51,51,51,0.1);
+    margin-top: 10px;
+}
+.buyTopCon2{
+    color: #333;
+    font-size: 18px;
+    margin-top: 10px;
+}
+.buyRimg{
+    float: right;
+    margin-top:17px;
+    margin-right: 134px;
+}
+.cardItems{
+    display: inline-block;
+    float: left;
+    margin-top: 41px;
+    margin-bottom: 50px;
+}
+.cardItems.dayBox{
+    background: url("../day_bg.png") top center no-repeat;
+    height: 562px;
+    width: 254px;
+    text-align: center;
+}
+.cardItems.weekBox{
+    background: url("../week_bg.png") top center no-repeat;
+    height: 562px;
+    width: 254px;
+    text-align: center;
+}
+.cardItems.monthBox{
+    background: url("../month_bg.png") top center no-repeat;
+    height: 562px;
+    width: 254px;
+    text-align: center;
+}
+.cardItems.seasonBox{
+    background: url("../season_bg.png") top center no-repeat;
+    height: 562px;
+    width: 254px;
+    text-align: center;
+}
+.cardItems.yearBox{
+    background: url("../year_bg.png") top center no-repeat;
+    height: 562px;
+    width: 254px;
+    text-align: center;
+}
+.cardItems .boxTitle{
+    color: #fff;
+    font-size: 24px;
+    font-weight: bold;
+    padding-top: 20px;
+    margin-left: 35px;
+    text-align: left;
+}
+.ulCon{
+    width: 100%;
+    margin-top: 0;
+    padding: 70px 0 30px 50px;
+    color: #333;
+    font-size: 14px;
+    text-align: left;
+    line-height: 30px;
+}
+.boxPrice{
+    font-size: 22px;
+    color: #fff;
+    padding-left: 25px;
+    text-align: left;
+}
+.boxPrice2{
+    font-size: 60px;
+    font-weight: bold;
+    color: #fff;
+}
+.lastPrice{
+    margin-top: 60px;
+    display: inline-block;
+    padding-left: 82px;
+    color: #aaa;
+}
+.ulCon li{
+    display: block;
+    text-align: left;
+}
+.ulCon li:before{
+    content: url('../buy_check.png');
+    padding-right: 5px;
+    margin-top: 3px;
+    display: inline-block;
+}
+.buyBtn{
+    font-size: 16px;
+    color: #fff;
+    display: inline-block;
+    text-align: center;
+    height: 46px;
+    line-height: 46px;
+    width: 150px;
+    border-radius: 25px;
+    cursor: pointer;
+}
+.dayBox .buyBtn{
+    background: -webkit-linear-gradient(#ab19d4, #653f9a); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#ab19d4, #653f9a); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#ab19d4, #653f9a); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#ab19d4, #653f9a); /* ��׼���﷨ */
+}
+.weekBox .buyBtn{
+    background: -webkit-linear-gradient(#eb7267, #c04040); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#eb7267, #c04040); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#eb7267, #c04040); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#eb7267, #c04040); /* ��׼���﷨ */
+}
+.monthBox .buyBtn{
+    background: -webkit-linear-gradient(#59c3f9, #4859fc); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#59c3f9, #4859fc); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#59c3f9, #4859fc); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#59c3f9, #4859fc); /* ��׼���﷨ */
+}
+.seasonBox .buyBtn{
+    background: -webkit-linear-gradient(#f3a87b, #e58144); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#f3a87b, #e58144); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#f3a87b, #e58144); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#f3a87b, #e58144); /* ��׼���﷨ */
+}
+.yearBox .buyBtn{
+    background: -webkit-linear-gradient(#01ecd7, #01b6a6); /* Safari 5.1 - 6.0 */
+    background: -o-linear-gradient(#01ecd7, #01b6a6); /* Opera 11.1 - 12.0 */
+    background: -moz-linear-gradient(#01ecd7, #01b6a6); /* Firefox 3.6 - 15 */
+    background: linear-gradient(#01ecd7, #01b6a6); /* ��׼���﷨ */
+}
+
+/* change amaze ui */
+.am-modal.am-modal-active{
+    background-color: rgba(0, 0, 0, 0.32);
+}
+.am-close{
+    font-size: 24px;
+}
+.am-modal-dialog{
+    box-shadow: 0 0 10px rgba(68, 68, 68, 0.43);
+    border-radius: 5px;
+    background-color: #fff;
+}
+#payWay.am-modal .am-modal-bd{
+    padding: 15px 15px 0 15px;
+}
+#payWay.am-modal .am-modal-hd .icons{
+    width: 50px;
+    height: 50px;
+    margin: 5px auto;
+    overflow: hidden;
+    background-color: #66d3ff;
+    border-radius: 100px;
+    text-align: center;
+    line-height: 50px;
+}
+#payWay.am-modal .am-modal-hd .icons img{
+    width: 50%;
+}
+#payWay.am-modal .am-modal-hd .words{
+    font-size: 22px;
+    padding: 10px 0;
+    display: block;
+}
+#payWay.am-modal .am-modal-bd .payItmes{
+    overflow: hidden;
+    padding: 15px 0;
+    border-bottom: 1px solid #ddd;
+    cursor: pointer;
+}
+#payWay.am-modal .am-modal-bd .payItmes:last-child{
+    border-bottom: none;
+}
+#payWay.am-modal .am-modal-bd .payItmes img{
+    float: left;
+    width: 30px;
+}
+#payWay.am-modal .am-modal-bd .payItmes .words{
+    float: left;
+    display: block;
+    line-height: 30px;
+    padding-left: 10px;
+    font-size: 18px;
+}
+#payWay.am-modal .am-modal-bd .payItmes label{
+    float: right;
+    line-height: 30px;
+    margin: 0;
+}
+#payWay.am-modal .am-modal-bd .payItmes label span{
+    margin-top: 5px;
+}
+#payWay.am-modal .am-modal-bd .payItmes label i{
+    font-size: 20px;
+
+}
+#payWay.am-modal .am-modal-bd .payItmes:nth-child(1) label i{
+    color: #1296db;
+}
+#payWay.am-modal .am-modal-bd .payItmes:nth-child(2) label i{
+    color: #0e932e;
+}
+#payWay.am-modal .am-modal-footer{
+    height: auto;
+}
+#payWay.am-modal .am-modal-footer .payNow{
+    background-color: #66d3ff;
+    border: 1px solid #66d3ff;
+    color: #fff;
+    width: 88%;
+    padding: 9px 0;
+    margin: 16px 0;
+    border-radius: 4px;
+    transition: 0.7s
+}
+#payWay.am-modal .am-modal-footer .payNow:hover{
+    background-color: #36acdc;
+}
+
+.PayMask {
+    display: none;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1000;
+    background-color: rgba(0, 0, 0, 0.3);
+    text-align: center;
+}
+
+.PayMask > .PayMask_inner {
+    position: relative;
+    top: 50%;
+    left: 50%;
+    margin: -133px 0 0 -123px;
+    width: 246px;
+    height: 266px;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+.PayMask2 {
+    -webkit-animation: fadeInDown 1s .2s ease both;
+    -moz-animation: fadeInDown 1s .2s ease both;
+}
+
+.PayMask > .PayMask_inner > h1 {
+    margin: 0 0 5px 0;
+    padding-top: 28px;
+    color: #fff;
+    font-size: 16px;
+    color: #222222;
+}
+
+.PayMask > .PayMask_inner img {
+    margin: 0 auto;
+    display: block;
+    width: 166px;
+    height: 166px;
+}
+
+.PayMask > .PayMask_inner > span {
+    position: absolute;
+    left: 50%;
+    bottom: -45px;
+    margin-left: -16px;
+    cursor: pointer;
+    width: 30px;
+    height: 30px;
+    line-height: 25px;
+    color: #fff;
+    border-radius: 50%;
+    border: 2px solid #fff;
+    /*-webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    -moz-transform: rotate(45deg);
+    transform: rotate(45deg);*/
+    -webkit-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    transition: all 0.3s ease;
+}
+.PayMask > .PayMask_inner:before {
+    content: "";
+    display: inline-block;
+    position: absolute;
+    bottom: -12px;
+    width: 2px;
+    height: 26px;
+    background-color: #fff;
+}
+.PayMask > .PayMask_inner > span{
+    display: inline-block;
+    font-size: 25px;
+}
+
+.activity-price .all_money { font-size: 20px; color: #FF6000; }
